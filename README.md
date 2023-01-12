@@ -103,7 +103,7 @@ cd .. # volta um diretorio
 
 cd ~ # vai para a raiz
 
-cd $HOME # vai para a raiz equivalente ao ~
+cd $HOME # vai para a raiz equivalente ao ~ pasta do usuário
 
 cd CAMINHO # vai para a pasta desejada
 
@@ -291,6 +291,17 @@ mkdir -p ./teste/teste2 # cria multiplas pastas dentro de outras
 mktemp # /tmp/tmp.UM_HASH_MALUCO_GERADO
 
 mktemp ./tmp.XXXX # cria
+```
+
+---
+
+## soma de numeros
+
+``
+
+```bash
+soma=`expr 2 + 3`
+echo "A soma é" $soma
 ```
 
 ---
